@@ -1,7 +1,7 @@
 
 
 def bubble(unsorted_list):
-    indexing_length = len(unsorted_list) - 1 # indexing starts at zero in python, so we need one less " - 1"
+    indexing_length = len(unsorted_list) - 1 #Save an Iteraction because last value will already be sorted
     sorted = False #Create variable of sorted and set it equal to false
 
     while not sorted:  #Repeat until sorted = True
