@@ -1,6 +1,6 @@
 
 def selection_sort(list_a):
-    indexing_length = range(0, len(list)-1)
+    indexing_length = range(0, len(list_a)-1)
 
     for i in indexing_length:
         min_value = i
